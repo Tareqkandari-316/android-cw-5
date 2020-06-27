@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/act1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/grade_page"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        tools:ignore="TextViewEdits" />
+
+
+    <Button
+        android:id="@+id/act2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="GPA Page"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        tools:ignore="TextViewEdits" />
+</LinearLayout>
